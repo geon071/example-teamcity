@@ -58,6 +58,7 @@ object Build : BuildType({
             }
             goals = "clean deploy"
             runnerArgs = "-Dmaven.test.failure.ignore=true"
+            userSettingsSelection = "settings.xml"
         }
     }
 
